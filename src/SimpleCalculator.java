@@ -1,37 +1,37 @@
 public class SimpleCalculator {
 
-    private int firstNumber;
-    private int secondNumber;
+    private double firstNumber;
+    private double secondNumber;
 
-    public int getFirstNumber() {
+    public double getFirstNumber() {
         return firstNumber;
     }
 
-    public int getSecondNumber() {
+    public double getSecondNumber() {
         return secondNumber;
     }
 
     public void setFirstNumber(double firstNumber) {
-        this.firstNumber = (int) firstNumber;
+        this.firstNumber =  firstNumber;
     }
 
     public void setSecondNumber(double secondNumber) {
-        this.secondNumber = (int) secondNumber;
+        this.secondNumber =  secondNumber;
     }
 
-    public int getAdditionResult(){
+    public double getAdditionResult(){
         return firstNumber + secondNumber;
     }
 
-    public int getSubtractionResult(){
+    public double getSubtractionResult(){
         return firstNumber - secondNumber;
     }
 
-    public int getMultiplicationResult(){
+    public double getMultiplicationResult(){
         return firstNumber * secondNumber;
     }
 
-    public int getDivisionResult(){
+    public double getDivisionResult(){
         if(secondNumber == 0){
             return 0;
         }
