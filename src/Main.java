@@ -7,8 +7,15 @@ public class Main {
         Car porsche =  new Car();
         Car holden = new Car();
 
+        //sets model to carrera
         porsche.setModel("Carrera");
 
+        //references class car and fails - showing model unknown.
+        porsche.setModel("Holden");
+
         System.out.println("Model is " + porsche.getModel());
+
+
+
     }
 }
