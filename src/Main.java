@@ -23,5 +23,11 @@ public class Main {
         //constructing a new account utilizing our account constructor
         Account daveAccount = new Account("115", 15000, "Dave Bald", "email@gmail.com", "612-555-7896");
         System.out.println(daveAccount.getAccountBalance());
+
+        Animal animal = new Animal("Animal", 1,1,5, 5);
+
+        Dog dog = new Dog("Yorkie", 8, 20, 2, 4, 1, 20, "Long silky");
+        dog.eat();
+
     }
 }

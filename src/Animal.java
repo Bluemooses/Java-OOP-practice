@@ -15,6 +15,8 @@ public class Animal {
 
     public void eat(){
 
+        System.out.println("Animal eat called, animal is now eating");
+
     }
 
     public void move(){

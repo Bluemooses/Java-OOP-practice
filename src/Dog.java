@@ -15,5 +15,17 @@ public class Dog extends Animal{
         this.coat = coat;
     }
 
+    //This override the eat method in Animal class - dogs will now chew rather than eat.
+    @Override
+    public void eat() {
+        System.out.println("Dog.eat() called");
+        chew();
+        super.eat();
+    }
+
+    private void chew(){
+        System.out.println("Dog chew called");
+    }
+
 
 }
