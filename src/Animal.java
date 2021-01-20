@@ -13,13 +13,23 @@ public class Animal {
         this.weight = weight;
     }
 
+
     public void eat(){
 
         System.out.println("Animal eat called, animal is now eating");
 
     }
 
-    public void move(){
+    public void walk(){
+        System.out.println("Animal walk called");
+    }
+
+    public void run(){
+        System.out.println("Animal run called");
+    }
+
+    public void move(int i){
+        System.out.println("Animal move called - moving at " + i);
 
     }
 
